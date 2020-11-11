@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*font-family: 'Raleway', sans-serif;*/
+/* Bleu : #0065FC */
+/* Bleu clair : #DEEBFF  */
+/* Gris fond : #F2F2F2 */
+
+body, html{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+/* Header */
+.header{
+  background-color: none;
+  height: 70px;
+  line-height: 70px;
+
+}
+
+.logo{
+background-color: none;
+height:70px;
+float: left;
+
+}
+
+.menu{
+  float: right;
+}
+/* Hébergement */
+
+/* Activités */
+
+/* Footer */
