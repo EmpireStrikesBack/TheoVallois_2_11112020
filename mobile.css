@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*font-family: 'Raleway', sans-serif;*/
+/* Bleu : #0065FC */
+/* Bleu clair : #DEEBFF  */
+/* Gris fond : #F2F2F2 */
+
+/* Elements principaux de la page*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+*{box-sizing: border-box;}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.Titre_principal{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+}
+
+nav li{
+  margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+/* Recherche */
+.recherche{
+  display: flex;
+  
+}
+/* Hébergement */
+
+/* Activités */
+
+/* Footer */

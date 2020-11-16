@@ -5,11 +5,7 @@
 /* Bleu clair : #DEEBFF  */
 /* Gris fond : #F2F2F2 */
 
-body, html{
-  padding: 0;
-  margin: 0;
-
-}
+/* Elements principaux de la page*/
 
 body{
   font-family: 'Raleway', sans-serif;
@@ -19,26 +15,90 @@ a, a:hover {
   text-decoration: none;
 }
 
-/* Header */
-.header{
-  background-color: none;
-  height: 70px;
-  line-height: 70px;
+*{box-sizing: border-box;}
+img{
+  max-width: 100%;
+  height: auto;
+}
 
+/* Header */
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 
 .logo{
-background-color: none;
-height:70px;
-float: left;
-
+  display: flex;
 }
 
-.menu{
-  float: right;
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+}
+
+nav li{
+  margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+/* Recherche */
+.recherche{
+  display: flex;
+  flex-direction: column;
+}
+
+.cherchez{
+display: flex;
+flex-direction: column;
+}
+
+.Filtres{
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+}
+
+.icones{
+  display: flex;
+}
+
+.icones p{
+  display: flex;
+  text-align: justify;
+  margin-left: 35px;
 }
 /* Hébergement */
 
 /* Activités */
 
 /* Footer */
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.colonne1{
+
+}
+
+.colonne2{
+
+}
+
+.colonne3{
+
+}
