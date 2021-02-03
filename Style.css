@@ -50,10 +50,10 @@ img
   object-fit: cover;
 }
 
-h1
+h2
 {
-  font-size: 3rem;
-  font-weight: bolder;
+  font-size: 1.5em;
+  font-weight: 800;
 }
 
 i
@@ -67,22 +67,28 @@ i
 }
   /* --Mobile-- */
 /* Header */
+.entete
+{
+  margin-bottom: 10%;
+}
+
 .navbar
 {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 10%;
 }
 
 .Logo
 {
   height: 0;
-  margin: 3.5% 0 20px 5%;
+  margin: 2.2% 0 -3% 5%;
 }
 
 .Logo img
 {
-  width: 260px;
+  width: 45%;
 }
 
 .navbar ul
@@ -91,8 +97,7 @@ i
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap-reverse;
-  margin-top: 20px;
-  padding-bottom: 50px;
+  margin-bottom: 10%;
 }
 
 .link1 a, .link3 a
@@ -106,7 +111,7 @@ i
   text-align: center;
   border-bottom: solid 6px #f2f2f2;
   padding-bottom: 10px;
-  font-size: 3em;
+  font-size: 1.5em;
   color: #0065fc;
   transition: all 0.5s;
 }
@@ -123,7 +128,7 @@ i
   text-align: center;
   border-bottom: solid 6px #f2f2f2;
   padding-bottom: 10px;
-  font-size: 3em;
+  font-size: 1.5em;
   transition: all 0.5s;
 }
 
@@ -143,7 +148,7 @@ i
   width: 30%;
   text-align: center;
   padding-bottom: 56px;
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 600;
   transition: all 0.5s;
 }
@@ -158,22 +163,26 @@ i
 
 header hgroup
 {
-  margin-right: 130px;
-  margin-left: 40px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
-header h2
+.entete h1
 {
-  font-size: 1.2em;
+  font-size: 1.5em;
+}
+
+.entete h2
+{
+  font-size: 1em;
   font-weight: 500;
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 
   /* Boutton recherche */
 .btn-recherche
 {
-  margin-left: 40px;
+  margin-left: 4%;
   height: 100px;
   display: flex;
 }
@@ -181,7 +190,7 @@ header h2
 .pin-icone
 {
   background-color: #f2f2f2;
-  height: 100%;
+  height: 50%;
   width: 15%;
   border-radius: 30% 0% 0% 30%;
   display: flex;
@@ -191,20 +200,20 @@ header h2
 {
   margin: auto;
   color: rgb(0, 0, 0);
-  font-size:2.7em;
+  font-size:1.5em;
 }
 
 form
 {
-  width: 100%;
-  height: 100%;
   display: flex;
+  height: 50px;
+  width: 100%;
 }
 
 .btn-recherche-input
 {
-  height: 100%;
-  font-size: 3em;
+  width: 100%;
+  font-size: 1em;
   font-weight: 600;
   padding-left: 10%;
   border: solid 1px #f2f2f2;
@@ -219,9 +228,9 @@ form
 .btn-recheche-loupe
 {
   background-color: #0065fc;
-  height: 100%;
-  width: 100px;
+  width: 50px;
   border-radius: 30%;
+  border: none;
   display: flex;
   position: relative;
   right: 30px;
@@ -231,7 +240,7 @@ form
 {
   margin: auto;
   color: #f2f2f2;
-  font-size: 1.6em;
+  font-size: 1em;
 }
 
 .search-desktop
@@ -251,22 +260,26 @@ form
 {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 45px;
+  margin-top: 8%;
 }
 
-.filter-container h3
+.filter-container h2
 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 600;
-  margin-top: 80px;
 }
 
 .eco, .famille, .animaux, .romance
 {
-  width:360px;
-  height:82px;
+  width:230px;
+  height:65px;
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 5%;
+}
+
+.eco
+{
+  width: 200px;
 }
 
   .romance
@@ -276,12 +289,7 @@ form
 
 .famille
 {
-  margin-left: 117px;
-}
-
-.animaux
-{
-  width: 590px;
+  width: 155px;
 }
 
 .eco i, .famille i, .animaux i, .romance i
@@ -289,13 +297,13 @@ form
   color:#0065fc;
   font-size: 2em;
   background-color: #deebff;
-  height: 110px;
-  width: 110px;
+  height: 65px;
+  width: 65px;
   text-align: center;
-  line-height: 110px;
+  line-height: 65px;
   border-radius: 50%;
-  margin-left: -5px;
-  margin-top:-15px;
+  margin-left: 2px;
+  margin-top:1px;
   position: absolute;
 }
 
@@ -306,21 +314,14 @@ form
 
 .eco p, .famille p, .romance p, .animaux p
 {
-  border: solid 5px #deebff;
-  font-size: 3em;
-  font-weight: 600;
+  border: solid 3px #deebff;
+  font-size: 1em;
+  font-weight: 800;
   border-radius: 53px;
-  padding-left: 130px;
-  padding-right: 40px;
+  padding-left: 75px;
+  padding-right: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
-  align-self: center;
-}
-
-.animaux p
-{
-  padding-bottom: 76px;
-  align-self: auto;
 }
 
 .animaux i
@@ -368,33 +369,34 @@ form
   .icone-info
   {
        display: flex;
-       height: 55px;
-       width: 65px;
-       border: solid 4px #deebff;
+       height: 30px;
+       width: 30px;
+       border: solid 1px #deebff;
        border-radius: 50%;
-       margin-right: 20px;
-       margin-left: 40px;
+       margin-right: 2%;
   }
 
   .icone-info i
   {
        margin: auto;
-       font-size: 1.8em;
+       font-size: 1em;
        color: #0065fc;
   }
 
   .info-container p
   {
-    font-size: 2.8em;
+    font-size: 1em;
     font-weight: 500;
+    padding-top: 2%;
   }
+
   /* Hébergement */
 .populaires
 {
   background-color: #F2F2F2;
-  padding-top: 80px;
-  padding-bottom: 75px;
-  margin-bottom: 80px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .populaires header
@@ -403,63 +405,69 @@ form
   justify-content: space-between;
 }
 
-.populaires h1
+.populaires h2
 {
-  margin-left: 45px;
+  margin-left: 5%;
   margin-bottom: 30px;
   font-weight: 800;
 }
 
 .populaires header i
 {
-  font-size: 3.5em;
+  font-size: 1.5em;
   color: black;
-  margin-right: 45px;
+  margin-right: 5%;
 }
 
 .populaires figure
 {
   background-color: #FFFFFF;
   border: 2px #FFFFFF solid;
-  border-radius: 37px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
+  border-radius: 20px;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 3%;
   display: flex;
   flex-direction: row;
-  height: 375px;
+  height: 160px;
 }
 
 .populaires img
 {
-  border: 10px #FFFFFF solid;
-  border-radius: 37px 0 0 37px;
+  border: 2px #FFFFFF solid;
+  border-radius: 20px 0 0 20px;
   object-fit: cover;
-  width:330px;
+  width:145px;
 }
 
 .populaires figcaption
 {
-  margin-left: 30px;
-  margin-right: 70px;
-  margin-top: 40px;
+  margin-left: 6%;
+  margin-top: 3%;
+  margin-right: 3%;
 }
 
-.populaires h2
+.populaires hgroup
 {
-  font-size: 2.5em;
-  font-weight: 800;
+  height: 80%;
 }
+
 .populaires h3
 {
-  margin-top: 20px;
-  margin-bottom: 130px;
-  font-size: 2.2em;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.populaires h4
+{
+  margin-top: 3%;
+  margin-bottom: 30%;
   font-weight: 500;
 }
-.populaires ul
+
+.populaires i
 {
-  font-size: 2em;
+  font-size: 0.8em;
 }
 
 .populaires li, .marseille li
@@ -469,11 +477,10 @@ display:inline;
 
 .marseille header
 {
-  margin-top: 45px;
   margin-bottom: 10px;
 }
 
-.marseille h1
+.marseille h2
 {
   margin-left: 30px;
   margin-bottom: 30px;
@@ -483,7 +490,7 @@ display:inline;
 {
   background-color: #FFFFFF;
   border: 2px #FFFFFF solid;
-  border-radius: 37px;
+  border-radius: 15px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
@@ -494,46 +501,50 @@ display:inline;
 
 .marseille img
 {
-  border: 10px #FFFFFF solid;
-  border-radius: 37px 37px 0 0;
+  border: 2px #FFFFFF solid;
+  border-radius: 15px 15px 0 0;
   object-fit: cover;
-  height: 298px;
+  height: 115px;
 }
 
-.marseille h2
+.marseille figcaption
 {
-  font-size: 2.5em;
-  font-weight: 800;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 40px;
+  margin-left: 4%;
 }
-
 .marseille h3
 {
-  margin-left: 40px;
-  margin-bottom: 20px;
-  font-size: 2.2em;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.marseille h4
+{
+  margin-bottom: 3%;
+  font-size: 1em;
   font-weight: 500;
 }
 
 .marseille ul
 {
-  margin-left: 40px;
-  margin-bottom: 20px;
-  font-size: 2em;
+  margin-bottom: 3%;
+  font-size: 1em;
 }
 
 .marseille p
 {
-  font-size: 2.5em;
+  font-size: 1em;
   font-weight: 700;
-  margin-top: 80px;
-  margin-bottom: 100px;
   margin-left: 20px;
 }
   /* Activités */
-#activites h1
+#activites
+{
+  margin-top: 10%;
+}
+
+#activites h2
 {
   margin-left: 20px;
 }
@@ -541,7 +552,7 @@ display:inline;
 #activites figure
 {
   background-color: #FFFFFF;
-  border-radius: 37px;
+  border-radius: 15px;
   margin-top: 50px;
   margin-left: 20px;
   margin-right: 20px;
@@ -553,42 +564,35 @@ display:inline;
 
 #activites img
 {
-  border-radius: 37px 37px 0 0;
-  height: 300px;
+  border-radius: 15px 15px 0 0;
+  height: 120px;
 }
 
 #activites figcaption
 {
-  padding-bottom: 40px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
 
-#activites h2
+#activites h3
 {
-  font-size: 3em;
-  margin-top: 40px;
-  margin-left: 20px;
+  font-size: 1em;
+  font-weight: 800;
 }
 
   /* Footer */
 footer
 {
   background-color: #F2F2F2;
+  padding-bottom: 8%;
+  padding-left: 7%;
+  padding-top: 12%;
 }
 
-.colonne1, .colonne2, .colonne3
+.colonne1, .colonne2
 {
   margin-bottom: 70px;
-  padding-left: 50px;
-}
-
-.colonne1
-{
-  padding-top: 80px;
-}
-
-.colonne3
-{
-  padding-bottom: 80px;
 }
 
 footer li
@@ -602,200 +606,6 @@ footer h2
   margin-bottom: 30px;
 }
 
-  /* --tablette-- */
-@media screen and (min-width:768px) and (max-width:991px)
-{
-  /* Hébergement */
-  #hebergement
-  {
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content: flex-end;
-  }
-  .populaires
-  {
-    height: 710px;
-    border-radius: 20px;
-    padding-top: 45px;
-    margin-left: 30px;
-  }
-  .populaires h1
-  {
-    margin-bottom: 20px;
-  }
-  .populaires header i
-  {
-    font-size: 1.5em;
-  }
-  .populaires figure
-  {
-    height: 145px;
-    width: 289px;
-    margin-left: 7%;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    border-radius: 15px;
-  }
-  .populaires img
-  {
-    border: 2px #FFFFFF solid;
-    width: 130px;
-    height: 140px;
-    border-radius: 15px 0 0 15px;
-  }
-  .populaires figcaption
-  {
-    margin-top: 10px;
-    margin-right: 5%;
-    margin-left: 5%;
-  }
-  .populaires h3
-  {
-    margin-bottom: 0px;
-    margin-top: 5%;
-  }
-  .populaires h2, .populaires h3
-  {
-    font-size: 0.9em;
-  }
-  .populaires .note
-  {
-    font-size: 0.9em;
-  }
-  .populaires ul
-  {
-    margin-top: 40%;
-  }
-  .marseille
-  {
-    height: 710px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-  }
-  .marseille-desktop
-  {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: space-between;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .marseille-hotel-desktop
-  {
-    height: 208px;
-    width: 30%;
-    margin-left: 1%;;
-    margin-right: 1%;;
-    margin-bottom: 2%;
-  }
-  .marseille-hotel-desktop figure
-  {
-    border: none;
-    border-radius: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    box-shadow: none;
-  }
-  .marseille img
-  {
-    width: 100%;
-    height: 125px;
-    margin-bottom: 3px;
-    border: 3px #FFFFFF solid;
-    border-radius: 15px 15px 0 0;
-  }
-  .marseille h2, .marseille h3, .marseille ul
-  {
-    font-size: 0.9em;
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-bottom: 2%;
-  }
-  .marseille .note
-  {
-    margin-top: 3%%;
-  }
-  .marseille p
-  {
-    font-size: 1em;
-    font-weight: 800;
-    margin-top: 10px;
-    margin-left: 35px;
-  }
-  /* Activités */
-  #activites img
-  {
-    border-radius: 15px 15px 0 0;
-  }
-  #activites figure
-  {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-radius: 15px;
-    box-shadow: 1px 3px 15px 1px #F2F2F2;
-  }
-  .activites-desktop
-  {
-    display: flex;
-    margin-top: 20px;
-  }
-  .activites-desktop .vertical img
-  {
-    width: 100%;
-    height: 100%;
-    object-fit:cover;
-  }
-  .activites-desktop .vertical
-  {
-    height: 100%;
-    background-color: white;
-    box-shadow: 2px 2px 12px #d9d9d9;
-    border-radius: 20px;
-  }
-  .activites-desktop .horizontal
-  {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-right: 20px;
-    justify-content: space-between;
-    margin-bottom: 15px;
-  }
-  #activites .vertical img
-  {
-    height:400px;
-  }
-  #activites .horizontal .fort
-  {
-    height: 180px;
-  }
-  #activites .horizontal .frioul
-  {
-    height: 120px;
-  }
-  {
-    height: 300px;
-  }
-  #activites .horizontal img
-  {
-    height: 150px;
-  }
-  #activites figcaption
-  {
-    padding-bottom: 20px;
-  }
-  #activites h2
-  {
-    font-size: 1em;
-    margin-top: 20px;
-  }
-}
-
   /* --desktop-- */
 @media only screen and (min-width:992px)
 {
@@ -804,9 +614,13 @@ footer h2
     width: 100%;
   }
   /* Header */
+  .entete
+  {
+    margin-bottom: 1%;
+  }
   header hgroup
   {
-    margin-left: 1%;
+    margin-left: 0;
   }
   header h1
   {
@@ -815,13 +629,12 @@ footer h2
   }
   header h2
   {
-    margin-top: 5px;
-    margin-bottom: 2%;
+    margin-top: 1%;
   }
   .navbar
   {
     height: 50px;
-    margin-bottom: 35px;
+    margin-top: 6%;
   }
   .navbar ul
   {
@@ -846,7 +659,7 @@ footer h2
   }
   .Logo
   {
-    margin-left: 1%;
+    margin-left: 0;
   }
   .Logo img
   {
@@ -856,11 +669,12 @@ footer h2
   .btn-recherche
   {
     height: 45px;
-    margin-left: 1%;
+    margin-left: 0;
   }
   .pin-icone
   {
     width: 4%;
+    height: 50px;
   }
   .btn-recherche-input
   {
@@ -872,6 +686,8 @@ footer h2
   {
     border-radius: 0px 15px 15px 0px;
     border: none;
+    width: auto;
+    padding-right: 1%;
   }
   .fas.fa-search
   {
@@ -892,18 +708,19 @@ footer h2
   .filter-container
   {
     display: flex;
-    margin-top: 60px;
-    margin-left: 1%;
+    margin-top: 2%;
+    margin-left: 0;
   }
-  .filter-container h3
+  .filter-container h2
   {
-    font-size: 1.5em;
-    margin-top: -10px;
+    font-size: 1.2em;
+    margin-top: 1%;
   }
   .filtres-container
   {
   flex-wrap: nowrap;
   padding-top: 0;
+  margin-top: 0;
   }
   .eco, .famille, .romance, .animaux
   {
@@ -928,15 +745,12 @@ footer h2
   .eco p, .famille p, .romance p, .animaux p
   {
     font-size: 1em;
+    height: 43px;
     padding-left: 50px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     border: solid 3px #deebff;
-  }
-  .animaux p
-  {
-    align-self: center;
   }
   .eco i, .famille i, .romance i, .animaux i
   {
@@ -945,17 +759,16 @@ footer h2
     line-height: 16px;
     font-size: 1em;
     padding: 13px;
-    margin-left: 0;
-    margin-top: -20px;
   }
   .info-container
   {
-    margin-top: 0;
-    margin-left: -2%;
+    margin-top: 3%;
+    margin-bottom: 2%;
   }
   .info-container p
   {
     font-size: 1em;
+    padding-top: 0;
   }
   .icone-info
   {
@@ -963,6 +776,7 @@ footer h2
     width: 30px;
     border: solid 2px #deebff;
     margin-top: -6px;
+    margin-right: 1%;
   }
   .icone-info i
   {
@@ -979,10 +793,12 @@ footer h2
   {
     height: 615px;
     border-radius: 20px;
-    padding-top: 45px;
-    margin-left: 30px;
+    padding-top: 2%;
+    padding-right: 3%;
+    margin-left: 2%;
+    margin-bottom: 0;
   }
-  .populaires h1
+  .populaires h2
   {
     margin-bottom: 20px;
   }
@@ -1012,12 +828,12 @@ footer h2
     margin-right: 5%;
     margin-left: 5%;
   }
-  .populaires h3
+  .populaires h4
   {
     margin-bottom: 0px;
     margin-top: 5%;
   }
-  .populaires h2, .populaires h3
+  .populaires h3, .populaires h4
   {
     font-size: 0.9em;
   }
@@ -1034,6 +850,7 @@ footer h2
     height: 615px;
     background-color: #F2F2F2;
     border-radius: 20px;
+    padding-top: 2%;
   }
   .marseille-desktop
   {
@@ -1070,7 +887,7 @@ footer h2
     border: 3px #FFFFFF solid;
     border-radius: 15px 15px 0 0;
   }
-  .marseille h2, .marseille h3, .marseille ul
+  .marseille h3, .marseille h4, .marseille ul
   {
     font-size: 0.9em;
     margin-top: 1%;
@@ -1079,7 +896,7 @@ footer h2
   }
   .marseille .note
   {
-    margin-top: 3%%;
+    margin-top: 3%;
   }
   .marseille p
   {
@@ -1089,6 +906,10 @@ footer h2
     margin-left: 35px;
   }
   /* Activités */
+  #activites
+  {
+    margin-top: 4%;
+  }
   #activites img
   {
     border-radius: 15px 15px 0 0;
@@ -1127,7 +948,6 @@ footer h2
     margin-left: 20px;
     margin-right: 20px;
     justify-content: space-between;
-    margin-bottom: 15px;
   }
   #activites .vertical img
   {
@@ -1141,9 +961,6 @@ footer h2
   {
     height: 120px;
   }
-  {
-    height: 300px;
-  }
   #activites .horizontal img
   {
     height: 150px;
@@ -1152,7 +969,7 @@ footer h2
   {
     padding-bottom: 20px;
   }
-  #activites h2
+  #activites h3
   {
     font-size: 1em;
     margin-top: 20px;
@@ -1166,9 +983,262 @@ footer h2
     padding-right: 335px;
     margin-left: -5%;
     margin-right: -5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   .colonne1, .colonne2, .colonne3
   {
-    padding-top: 40px;
+    margin-bottom: 0;
+  }
+  footer h2
+  {
+    font-size: 1em;
+  }
+}
+
+  /* --tablette-- */
+@media (min-width: 600px) and (max-width: 1024px){
+  img
+  {
+    width: 100%;
+  }
+  /* Header */
+  .entete
+  {
+    margin-bottom: 2%;
+  }
+  header hgroup
+  {
+    margin-left: 0;
+  }
+  header h1
+  {
+    font-size: 1.3em;
+    font-weight: 800;
+  }
+  .entete h2
+  {
+    margin-top: 1%;
+  }
+  .navbar
+  {
+    height: 50px;
+    margin-top: 6%;
+  }
+  .navbar ul
+  {
+    width: 50%;
+    font-size: 0.8em;
+  }
+  .navbar li
+  {
+    width: 20%;
+    font-size: 1em;
+  }
+  .navbar .link1, .link2, .link3
+  {
+    padding-top: 20px;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .link1:hover, .link2:hover, .link3:hover
+  {
+    border-top: solid 3px #0065fc;
+    color: #0065fc;
+    border-bottom: none;
+  }
+  .Logo
+  {
+    margin-left: 0;
+  }
+  .Logo img
+  {
+    width:100px;
+  }
+  /* Boutton Recherche */
+  .btn-recherche
+  {
+    height: 45px;
+    margin-left: 0;
+  }
+  .pin-icone
+  {
+    width: 4%;
+    height: 50px;
+  }
+  .btn-recherche-input
+  {
+    width: 280px;
+    font-size: 1.3em;
+    padding-left: 2%;
+  }
+  .btn-recheche-loupe
+  {
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    width: auto;
+    padding-right: 1%;
+  }
+  .fas.fa-search
+  {
+    display: none;
+  }
+  .search-desktop
+  {
+    display: initial;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+  }
+  .pin-icone i
+  {
+    font-size: 1.5em;
+  }
+  /* Filtres reserche */
+  .filter-container
+  {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 0;
+  }
+  .filter-container h2
+  {
+    font-size: 1.2em;
+    margin-top: 1%;
+  }
+  .filtres-container
+  {
+  flex-wrap: nowrap;
+  padding-top: 0;
+  margin-top: 0;
+  }
+  .eco, .famille, .romance, .animaux
+  {
+    height: 0;
+  }
+  .eco, .romance
+  {
+    margin-left: 5px;
+    width: 150px;
+    margin-right: 0px;
+  }
+  .famille
+  {
+    width: 120px;
+    margin-left: 5px;
+  }
+  .animaux
+  {
+    margin-left: 5px;
+    width: 200px;
+  }
+  .eco p, .famille p, .romance p, .animaux p
+  {
+    font-size: 0.9em;
+    height: 43px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 3px #deebff;
+  }
+  .eco i, .famille i, .romance i, .animaux i
+  {
+    height:42px;
+    width: 42px;
+    line-height: 16px;
+    font-size: 1em;
+    padding: 13px;
+  }
+  .info-container
+  {
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+  .info-container p
+  {
+    font-size: 1em;
+    padding-top: 0;
+  }
+  .icone-info
+  {
+    height: 30px;
+    width: 30px;
+    border: solid 2px #deebff;
+    margin-top: -6px;
+    margin-right: 1%;
+  }
+  .icone-info i
+  {
+    font-size: 1em;
+  }
+  /* Hébergement */
+  .populaires
+  {
+    padding-top: 2%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+  }
+  .populaires-tablet
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .populaires figure
+  {
+    width: 210px;
+    font-size: 0.7em;
+  }
+  .populaires img
+  {
+    width: 100px;
+  }
+  .marseille-desktop
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .marseille-hotel-desktop
+  {
+    width: 345px;
+  }
+  /* activités */
+  #activites .vertical, #activites .horizontal
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #activites figure
+  {
+    width: 300px;
+  }
+  #activites .vertical figure
+  {
+    width: 640px;
+  }
+  #activites figure
+  {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  /* footer */
+  footer
+  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 0;
+  }
+  footer h2
+  {
+    font-size: 0.9em;
+  }
+  .colonne1, .colonne2
+  {
+    margin-bottom: 0;
   }
 }
