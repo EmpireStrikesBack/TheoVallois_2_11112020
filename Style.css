@@ -827,6 +827,7 @@ footer h2
     margin-top: 10px;
     margin-right: 5%;
     margin-left: 5%;
+    height: 50%;
   }
   .populaires h4
   {
@@ -997,7 +998,7 @@ footer h2
 }
 
   /* --tablette-- */
-@media (min-width: 600px) and (max-width: 1024px){
+@media (min-width: 600px) and (max-width: 1020px){
   img
   {
     width: 100%;
